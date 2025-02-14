@@ -1,4 +1,19 @@
-body {
+*{ /* CSS RESET */
   margin: 0;
   padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  line-height: 1;
+  list-style: none;
+  font-family: 'Quicksand';
+} 
+
+:root { /* VARIABLES */
+  --vibrant-pink: #FF6F91;    /* Rosa Vibrante */
+  --deep-purple: #6E44FF;     /* Roxo Profundo */
+  --sunny-yellow: #FFD166;    /* Amarelo Sol */
+  --light-blue: #A2DDF0;       /* Azul Claro */
+  --pure-white: #FFFFFF;       /* Branco */
+  --pure-black: #000000;       /* Preto */
 }
+
