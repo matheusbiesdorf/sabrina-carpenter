@@ -9,11 +9,10 @@
 } 
 
 :root { /* VARIABLES */
-  --vibrant-pink: #FF6F91;    /* Rosa Vibrante */
-  --deep-purple: #6E44FF;     /* Roxo Profundo */
-  --sunny-yellow: #FFD166;    /* Amarelo Sol */
-  --light-blue: #A2DDF0;       /* Azul Claro */
-  --pure-white: #FFFFFF;       /* Branco */
-  --pure-black: #000000;       /* Preto */
+  --vibrant-pink: #FF6F91; 
+  --deep-purple: #6E44FF;    
+  --sunny-yellow: #FFD166;    
+  --light-blue: #A2DDF0;       
+  --pure-white: #FFFFFF;       
+  --pure-black: #000000;       
 }
-
