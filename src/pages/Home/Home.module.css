@@ -1,54 +1,91 @@
-.home { 
-    width: calc(100vw - 17px);
-    height: 100vh;
-    background-image: url('background-1.png');
-    background-attachment: fixed;
+.home {
+   width: calc(100vw - 17px);
+   height: 1600px;
+   background-image: url("background-1.png");
+   background-attachment: fixed;
+   background-size: cover;
 }
 
-@media (max-width:768px) {
-    .home{
-        background-image: url('background-2.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-    }
+@media (max-width: 768px) {
+   .home {
+      background-image: url("background-2.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      height: 2200px;
+   }
 
-    .newsHome{
-        position: relative;
-        margin: auto;
-        top: 275px;
-    }
+   .newsHome {
+      position: relative;
+      margin: auto;
+      top: 275px;
+   }
 }
 
 @media (min-width: 769px) {
-    .newsHome{
-        position: relative;
-        left: 250px;
-        top: 200px;
-    }
+   .newsHome {
+      position: relative;
+      left: 250px;
+      top: 200px;
+   }
 }
 
-.newsHome{
-    width: 350px;
-    height: 450px;
+.newsHome {
+   width: 350px;
+   height: 450px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
 
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.9);
+   border-radius: 5px;
+   background-color: rgba(255, 255, 255, 0.9);
 }
 
-.newsHome img{
-    width: 95%;
-    height: auto;
+.newsHome img {
+   width: 95%;
+   height: auto;
 }
 
-.newsHome h2{
-    text-align: center;
+.newsHome h2 {
+   text-align: center;
 }
 
+/* SOCIAL MEDIA */
 
+.socialMedia {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   top: 550px;
+   gap: 50px;
+}
 
+.socialMedia img {
+   width: 225px;
+   height: 225px;
+   border-radius: 50%;
+   background-color: white;
+   transition-duration: 500ms;
+}
+
+.socialMedia img:hover {
+   width: 235px;
+   height: 235px;
+   transform: translateY(-5px);
+   transition-duration: 1000ms;
+}
+
+@media (max-width: 768px) {
+   .socialMedia {
+      flex-direction: column;
+   }
+   .socialMedia img {
+      width: 180px;
+      height: 180px;
+   }
+}
