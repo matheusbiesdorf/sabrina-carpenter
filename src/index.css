@@ -1,0 +1,19 @@
+*{ /* CSS RESET */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    line-height: 1;
+    list-style: none;
+    /* font-family: 'Quicksand'; */
+  } 
+  
+  :root { /* VARIABLES */
+    --vibrant-pink: #FF6F91; 
+    --deep-purple: #6E44FF;    
+    --sunny-yellow: #FFD166;    
+    --light-blue: #A2DDF0;       
+    --pure-white: #FFFFFF;       
+    --pure-black: #000000;       
+  }
+  
