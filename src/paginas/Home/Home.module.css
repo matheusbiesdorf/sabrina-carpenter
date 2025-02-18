@@ -1,4 +1,16 @@
 .mainHome{
-    width: 100vw;
-    background-color: darkblue; /* Teste */
+    width: calc(100vw)px;
+    height: 100vh;
+    background-image: url('./bg-desktop.png');
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: left;
+}
+
+@media (max-width: 768px) {
+    .mainHome{
+        background-image: url('./bg-mobile.png');
+    }
 }

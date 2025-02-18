@@ -1,6 +1,5 @@
 import { useState } from "react";
 import styles from "./Menu.module.css";
-import { NavLink } from "react-router-dom";
 import MenuLink from "componentes/MenuLink";
 
 const Menu = () => {
