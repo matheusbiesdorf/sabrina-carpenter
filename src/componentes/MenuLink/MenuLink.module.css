@@ -1,0 +1,15 @@
+.MenuLink{
+    text-decoration: none;
+    color: var(--pure-black);
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.MenuLink:visited{
+    text-decoration: none;
+}
+
+.MenuLink:hover{
+    color:var(--sunny-yellow);
+    transition-duration: 300ms;
+}

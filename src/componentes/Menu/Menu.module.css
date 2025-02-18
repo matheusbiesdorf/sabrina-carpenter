@@ -1,0 +1,55 @@
+/* ENVOLVE TUDO */
+.navbar {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 50px;
+   background-color: var(--light-blue);
+}
+
+/* ÍCONE DE HAMBURGER */
+.hamburger {
+   display: none;
+   font-size: 2em;
+   background: none;
+   color: var(--pure-black);
+   cursor: pointer;
+}
+
+/* LISTA DE LINKS */
+.menu {
+   display: flex;
+   gap: 40px;
+}
+
+/* ---------------------------------------- TELAS PEQUENAS ---------------------------------------- */
+@media (max-width: 768px) {
+   /* ENVOLVE TUDO */
+   .navbar {
+      justify-content: flex-end;
+      padding-right: 10px;
+   }
+
+   /* ÍCONE DE HAMBURGER */
+   .hamburger {
+      display: block;
+   }
+
+   /* LISTA DE LINKS */
+   .menu {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      background-color: var(--light-blue);
+      padding: 20px;
+   }
+
+   /* LISTA DE LINKS se ABERTO */
+   .menu.open {
+      display: flex;
+   }
+}
