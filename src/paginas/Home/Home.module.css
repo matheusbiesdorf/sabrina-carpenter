@@ -1,16 +1,79 @@
-.mainHome{
-    width: calc(100vw)px;
-    height: 100vh;
-    background-image: url('./bg-desktop.png');
+/* ------------------------- PÁGINA E BACKGROUND ------------------------- */
 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: left;
+.mainHome {
+   width: calc(100vw) px;
+   height: 100vh;
+   background-image: url("./bg-desktop.png");
+
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: left;
+
+   display: flex;
+   flex-direction: column;
 }
 
 @media (max-width: 768px) {
-    .mainHome{
-        background-image: url('./bg-mobile.png');
-    }
+   .mainHome {
+      background-image: url("./bg-mobile.png");
+   }
 }
+
+/* ------------------------- SESSÃO DE NOTÍCIA ------------------------- */
+
+.homeNews {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   flex-direction: column;
+
+   width: 500px;
+   height: 600px;
+
+   background-color: var(--sabrina-newspapper);
+   border-radius: 8px;
+
+   position: absolute;
+   top: 125px;
+   left: 250px;
+
+   box-shadow: 1px 1px 1px var(--pure-black);
+}
+
+.homeNews img {
+   width: 80%;
+   margin-top: 20px;
+   margin-bottom: 40px;
+}
+
+.homeNews h2 {
+   text-align: center;
+   font-size: 1.8em;
+   margin-bottom: 20px;
+}
+
+.homeNews p {
+   text-align: center;
+   font-size: 1.3em;
+}
+
+@media (min-width:400px) and (max-width: 768px) {
+   .mainHome {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+
+   .homeNews{
+    position: static;
+    width: 95%;
+    height: auto;
+    padding-bottom: 15px;
+    top: 50px;
+   }
+}
+
+
+/* ------------------------- REDES SOCIAIS ------------------------- */
