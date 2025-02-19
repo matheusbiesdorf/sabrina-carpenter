@@ -1,318 +1,194 @@
 [
-
-
-
-
-
    {
       "id": 1,
-      "album": "Short n' Sweet (Deluxe)",
-      "capa": "",
-      "corPrimaria": "#FF5733",
-      "corSecundaria": "#C70039",
+      "nome": "Short n' Sweet (Deluxe)",
+      "capa": "imagens/sns-deluxe.jpg",
+      "faixas": 16,
+      "cor": "#6AABBF",
       "musicas": [
          {
-            "id": 1,
-            "musica": "Taste",
-            "artista": "Sabrina Carpenter"
+            "musica": "Taste"
          },
          {
-            "id": 2,
-            "musica": "Please Please Please",
-            "artista": "Sabrina Carpenter"
+            "musica": "Please Please Please"
          },
          {
-            "id": 3,
-            "musica": "Good Graces",
-            "artista": "Sabrina Carpenter"
+            "musica": "Good Graces"
          },
          {
-            "id": 4,
-            "musica": "Sharpest Tool",
-            "artista": "Sabrina Carpenter"
+            "musica": "Sharpest Tool"
          },
          {
-            "id": 5,
-            "musica": "Coincidence",
-            "artista": "Sabrina Carpenter"
+            "musica": "Coincidence"
          },
          {
-            "id": 6,
-            "musica": "Bed Chem",
-            "artista": "Sabrina Carpenter"
+            "musica": "Bed Chem"
          },
          {
-            "id": 7,
-            "musica": "Espresso",
-            "artista": "Sabrina Carpenter"
+            "musica": "Espresso"
          },
          {
-            "id": 8,
-            "musica": "Dumb & Poetic",
-            "artista": "Sabrina Carpenter"
+            "musica": "Dumb & Poetic"
          },
          {
-            "id": 9,
-            "musica": "Slim Pickins",
-            "artista": "Sabrina Carpenter"
+            "musica": "Slim Pickins"
          },
          {
-            "id": 10,
-            "musica": "Juno",
-            "artista": "Sabrina Carpenter"
+            "musica": "Juno"
          },
          {
-            "id": 11,
-            "musica": "Lie to Girls",
-            "artista": "Sabrina Carpenter"
+            "musica": "Lie to Girls"
          },
          {
-            "id": 12,
-            "musica": "Don't Smile",
-            "artista": "Sabrina Carpenter"
+            "musica": "Don't Smile"
          },
          {
-            "id": 13,
-            "musica": "15 Minutes",
-            "artista": "Sabrina Carpenter"
+            "musica": "15 Minutes"
          },
          {
-            "id": 14,
-            "musica": "Please Please Please",
-            "artista": "Sabrina Carpenter"
+            "musica": "Please Please Please"
          },
          {
-            "id": 15,
-            "musica": "Busy Woman",
-            "artista": "Sabrina Carpenter"
+            "musica": "Busy Woman"
          },
          {
-            "id": 16,
-            "musica": "Bad Reviews",
-            "artista": "Sabrina Carpenter"
+            "musica": "Bad Reviews"
          }
       ]
    },
-
-
-
-
 
    {
       "id": 2,
-      "album": "Short n' Sweet",
-      "capa": "",
-      "corPrimaria": "#3498DB",
-      "corSecundaria": "#2ECC71",
+      "nome": "Short n' Sweet",
+      "capa": "imagens/sns.jpg",
+      "faixas": 12,
+      "cor": "#2756A6",
       "musicas": [
          {
-            "id": 1,
-            "musica": "Taste",
-            "artista": "Sabrina Carpenter"
+            "musica": "Taste"
          },
          {
-            "id": 2,
-            "musica": "Please Please Please",
-            "artista": "Sabrina Carpenter"
+            "musica": "Please Please Please"
          },
          {
-            "id": 3,
-            "musica": "Good Graces",
-            "artista": "Sabrina Carpenter"
+            "musica": "Good Graces"
          },
          {
-            "id": 4,
-            "musica": "Sharpest Tool",
-            "artista": "Sabrina Carpenter"
+            "musica": "Sharpest Tool"
          },
          {
-            "id": 5,
-            "musica": "Coincidence",
-            "artista": "Sabrina Carpenter"
+            "musica": "Coincidence"
          },
          {
-            "id": 6,
-            "musica": "Bed Chem",
-            "artista": "Sabrina Carpenter"
+            "musica": "Bed Chem"
          },
          {
-            "id": 7,
-            "musica": "Espresso",
-            "artista": "Sabrina Carpenter"
+            "musica": "Espresso"
          },
          {
-            "id": 8,
-            "musica": "Dumb & Poetic",
-            "artista": "Sabrina Carpenter"
+            "musica": "Dumb & Poetic"
          },
          {
-            "id": 9,
-            "musica": "Slim Pickins",
-            "artista": "Sabrina Carpenter"
+            "musica": "Slim Pickins"
          },
          {
-            "id": 10,
-            "musica": "Juno",
-            "artista": "Sabrina Carpenter"
+            "musica": "Juno"
          },
          {
-            "id": 11,
-            "musica": "Lie to Girls",
-            "artista": "Sabrina Carpenter"
+            "musica": "Lie to Girls"
          },
          {
-            "id": 12,
-            "musica": "Don't Smile",
-            "artista": "Sabrina Carpenter"
+            "musica": "Don't Smile"
          }
       ]
    },
-
-
-
-
 
    {
       "id": 3,
-      "album": "emails i can't send",
-      "capa": "",
-      "corPrimaria": "#3498DB",
-      "corSecundaria": "#2ECC71",
+      "nome": "emails i can't send",
+      "capa": "imagens/eics.jpg",
+      "faixas": 17,
+      "cor": "#E9C496",
       "musicas": [
          {
-            "id": 1,
-            "musica": "emails i can't send",
-            "artista": "Sabrina Carpenter"
+            "musica": "emails i can't send"
          },
          {
-            "id": 2,
-            "musica": "Vicious",
-            "artista": "Sabrina Carpenter"
+            "musica": "Vicious"
          },
          {
-            "id": 3,
-            "musica": "Read your Mind",
-            "artista": "Sabrina Carpenter"
+            "musica": "Read your Mind"
          },
          {
-            "id": 4,
-            "musica": "Tornado Warnings",
-            "artista": "Sabrina Carpenter"
+            "musica": "Tornado Warnings"
          },
          {
-            "id": 5,
-            "musica": "because i liked a boy",
-            "artista": "Sabrina Carpenter"
+            "musica": "because i liked a boy"
          },
          {
-            "id": 6,
-            "musica": "Already Over",
-            "artista": "Sabrina Carpenter"
+            "musica": "Already Over"
          },
          {
-            "id": 7,
-            "musica": "how many things",
-            "artista": "Sabrina Carpenter"
+            "musica": "how many things"
          },
          {
-            "id": 8,
-            "musica": "bet u wanna",
-            "artista": "Sabrina Carpenter"
+            "musica": "bet u wanna"
          },
          {
-            "id": 9,
-            "musica": "Nonsense",
-            "artista": "Sabrina Carpenter"
+            "musica": "Nonsense"
          },
          {
-            "id": 10,
-            "musica": "Fast Times",
-            "artista": "Sabrina Carpenter"
+            "musica": "Fast Times"
          },
          {
-            "id": 11,
-            "musica": "skinny dipping",
-            "artista": "Sabrina Carpenter"
+            "musica": "skinny dipping"
          },
          {
-            "id": 12,
-            "musica": "Bad for Business",
-            "artista": "Sabrina Carpenter"
+            "musica": "Bad for Business"
          },
          {
-            "id": 13,
-            "musica": "decode",
-            "artista": "Sabrina Carpenter"
+            "musica": "decode"
          },
          {
-            "id": 14,
-            "musica": "opposite",
-            "artista": "Sabrina Carpenter"
+            "musica": "opposite"
          },
          {
-            "id": 15,
-            "musica": "Feather",
-            "artista": "Sabrina Carpenter"
+            "musica": "Feather"
          },
          {
-            "id": 16,
-            "musica": "Lonesome",
-            "artista": "Sabrina Carpenter"
+            "musica": "Lonesome"
          },
          {
-            "id": 17,
-            "musica": "things i wish you said",
-            "artista": "Sabrina Carpenter"
+            "musica": "things i wish you said"
          }
       ]
    },
 
-
-
-
-
    {
       "id": 4,
-      "album": "fruitcake",
-      "capa": "",
-      "corPrimaria": "#3498DB",
-      "corSecundaria": "#2ECC71",
+      "nome": "fruitcake",
+      "capa": "imagens/fruitcake.jpg",
+      "faixas": 6,
+      "cor": "#9C232A",
       "musicas": [
          {
-            "id": 1,
-            "musica": "A Nonsense Christmas",
-            "artista": "Sabrina Carpenter"
+            "musica": "A Nonsense Christmas"
          },
          {
-            "id": 2,
-            "musica": "buy me presents",
-            "artista": "Sabrina Carpenter"
+            "musica": "buy me presents"
          },
          {
-            "id": 3,
-            "musica": "santa doesn't know you like i do",
-            "artista": "Sabrina Carpenter"
+            "musica": "santa doesn't know you like i do"
          },
          {
-            "id": 4,
-            "musica": "cindy lou who",
-            "artista": "Sabrina Carpenter"
+            "musica": "cindy lou who"
          },
          {
-            "id": 5,
-            "musica": "is it new years yet?",
-            "artista": "Sabrina Carpenter"
+            "musica": "is it new years yet?"
          },
          {
-            "id": 6,
-            "musica": "white xmas",
-            "artista": "Sabrina Carpenter"
+            "musica": "white xmas"
          }
       ]
    }
-
-
-
-
-   
 ]

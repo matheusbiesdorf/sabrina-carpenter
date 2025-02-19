@@ -1,4 +1,7 @@
-.mainMusic{
-    width: 100vw;
-    background-color: darkred; /* Teste */
+.ulMusic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
 }
