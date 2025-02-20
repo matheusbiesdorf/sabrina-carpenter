@@ -3,5 +3,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    padding: 15px 0px;
+    gap: 15px;
+
+    background-image: url(./bg-vinil.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
