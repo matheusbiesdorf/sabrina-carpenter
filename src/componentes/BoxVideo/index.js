@@ -13,7 +13,7 @@ export default function BoxVideo({ video }) {
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
          ></iframe>
-         <h2>espresso(official video)</h2>
+         <h2>{video.titulo}</h2>
       </div>
    );
 }
