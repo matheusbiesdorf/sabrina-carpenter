@@ -1,20 +1,39 @@
-*{ /* CSS RESET */
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-    line-height: 1;
-    list-style: none;
-    /* font-family: 'Quicksand'; */
-  } 
-  
-  :root { /* VARIABLES */
-    --vibrant-pink: #FF6F91; 
-    --deep-purple: #6E44FF;    
-    --sunny-yellow: #FFD166;    
-    --light-blue: #A2DDF0;       
-    --pure-white: #FFFFFF;       
-    --pure-black: #000000; 
-    --sabrina-newspaper: #EBDBCC;      
-  }
-  
+* {
+   /* CSS RESET */
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+   line-height: 1;
+   list-style: none;
+   /* font-family: 'Quicksand'; */
+}
+
+@font-face {
+   font-family: "Baskervville";
+   src: url("../public/fontes/Baskervville-Regular.ttf") format("truetype");
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Baskervville";
+   src: url("../public/fontes/Baskervville-Italic.ttf") format("truetype");
+   font-weight: normal;
+   font-style: italic;
+}
+
+body {
+   font-family: "Baskervville", serif;
+}
+
+:root {
+   /* VARIABLES */
+   --vibrant-pink: #ff6f91;
+   --deep-purple: #6e44ff;
+   --sunny-yellow: #ffd166;
+   --light-blue: #a2ddf0;
+   --pure-white: #ffffff;
+   --pure-black: #000000;
+   --sabrina-newspaper: #ebdbcc;
+}
