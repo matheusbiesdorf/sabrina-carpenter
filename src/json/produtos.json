@@ -1,0 +1,99 @@
+[
+
+
+
+    {
+        "id": 1,
+        "descricao": "Short n' Sweet (Deluxe) CD",
+        "preco": 16.98,
+        "imagem": "imagens/produtos/",
+        "categoria": "Music"
+    },
+    {
+        "id": 2,
+        "descricao": "Short n' Sweet Alternate Cover CD",
+        "preco": 13.98,
+        "imagem": "imagens/produtos/",
+        "categoria": "Music"
+    },
+    {
+        "id": 3,
+        "descricao": "Emails I Can't Send CD",
+        "preco": 13.98,
+        "imagem": "imagens/produtos/",
+        "categoria": "Music"
+    },
+    {
+        "id": 4,
+        "descricao": "fruitcake CD",
+        "preco": 10.98,
+        "imagem": "imagens/produtos/",
+        "categoria": "Music"
+    },
+
+
+
+
+    {
+        "id": 5,
+        "descricao": "Short n' Sweet Tour Is So Nice Tee",
+        "preco": 50.00,
+        "imagem": "imagens/produtos/",
+        "categoria": "Tour"
+    },
+    {
+        "id": 6,
+        "descricao": "Short n' Sweet Tour Where Are Thou Tee",
+        "preco": 50.00,
+        "imagem": "imagens/produtos/",
+        "categoria": "Tour"
+    },
+    {
+        "id": 7,
+        "descricao": "Short n' Sweet Tour Adore Me Tee",
+        "preco": 50.00,
+        "imagem": "imagens/produtos/",
+        "categoria": "Tour"
+    },
+    {
+        "id": 8,
+        "descricao": "Short n' Sweet Tour Crewneck",
+        "preco": 80.00,
+        "imagem": "imagens/produtos/",
+        "categoria": "Tour"
+    },
+
+
+
+    {
+        "id": 9,
+        "descricao": "short n' sweet playing cards",
+        "preco": 15.00,
+        "imagem": "imagens/produtos/",
+        "categoria": "Miscellaneous"
+    },
+    {
+        "id": 10,
+        "descricao": "short n' sweet mug",
+        "preco": 30.00,
+        "imagem": "imagens/produtos/",
+        "categoria": "Miscellaneous"
+    },
+    {
+        "id": 11,
+        "descricao": "busy woman hat",
+        "preco": 35.00,
+        "imagem": "imagens/produtos/",
+        "categoria": "Miscellaneous"
+    },
+    {
+        "id": 12,
+        "descricao": "Please Please Please Cosmetics Bag",
+        "preco": 30.00,
+        "imagem": "imagens/produtos/",
+        "categoria": "Miscellaneous"
+    }
+
+    
+
+]
