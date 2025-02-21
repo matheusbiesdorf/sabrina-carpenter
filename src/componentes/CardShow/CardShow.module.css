@@ -36,3 +36,9 @@
     font-size: 1.5em;
     font-weight: 700;
 }
+
+.cardShow button:hover{
+    cursor: pointer;
+    background-color: var(--sunny-yellow);
+    transition-duration: 400ms;
+}
