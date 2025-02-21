@@ -1,9 +1,15 @@
+import BoxVideo from 'componentes/BoxVideo'
 import styles from './Videos.module.css'
+import videos from "json/videos.json"
 
 export default function Videos(){
     return(
-        <main className={styles.mainVideos}>
-            <h1>Vídeos</h1>
-        </main>
+        <ul className={styles.ulVideos}>
+            {videos.map((video) => (
+                <li key={video.id}>
+                    <BoxVideo video={video} />
+                </li>
+            ))}
+        </ul>
     )
 }

@@ -14,9 +14,9 @@ export default function AppRoutes() {
          <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="/music" element={<Music/>} ></Route>
+            <Route path="/videos" element={<Videos/>} ></Route>
             <Route path="/signup" element={<SignUp/>} ></Route>
             <Route path="/shop" element={<Shop/>} ></Route>
-            <Route path="/videos" element={<Videos/>} ></Route>
          </Routes>
          <Rodape/>
       </BrowserRouter>
