@@ -6,6 +6,7 @@ import SignUp from "./paginas/SignUp";
 import Videos from "./paginas/Videos";
 import Shop from "./paginas/Shop";
 import Rodape from "componentes/Rodape";
+import Tour from "paginas/Tour";
 
 export default function AppRoutes() {
    return (
@@ -15,6 +16,7 @@ export default function AppRoutes() {
             <Route path="/" element={<Home />}></Route>
             <Route path="/music" element={<Music/>} ></Route>
             <Route path="/videos" element={<Videos/>} ></Route>
+            <Route path="/tour" element={<Tour/>} ></Route>
             <Route path="/signup" element={<SignUp/>} ></Route>
             <Route path="/shop" element={<Shop/>} ></Route>
          </Routes>

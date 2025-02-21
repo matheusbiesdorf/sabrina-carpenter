@@ -19,6 +19,7 @@ const Menu = () => {
             <li><MenuLink to="/" onClick={closeMenu}>Home</MenuLink></li>
             <li><MenuLink to="/music" onClick={closeMenu}>Music</MenuLink></li>
             <li><MenuLink to="/videos" onClick={closeMenu}>Videos</MenuLink></li>
+            <li><MenuLink to="/tour" onClick={closeMenu}>Tour</MenuLink></li>
             <li><MenuLink to="/shop" onClick={closeMenu}>Shop</MenuLink></li>
             <li><MenuLink to="/signup" onClick={closeMenu}>Sign Up</MenuLink></li>
          </ul>
