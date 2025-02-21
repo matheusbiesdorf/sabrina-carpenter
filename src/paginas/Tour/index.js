@@ -1,32 +1,26 @@
-import styles from './Tour.module.css'
+import CardShow from "componentes/CardShow";
+import styles from "./Tour.module.css";
+import shows from "json/shows.json";
+import tourDesktop from "./tourDesktop.png";
+import tourMobile from "./tourMobile.png";
 
-export default function Tour(){
-    return(
-        <main className={styles.mainTour}>
-            <h2>SHORT N' SWEET TOUR</h2>
-            <img src='' />
+export default function Tour() {
+   return (
+      <main className={styles.mainTour}>
+         <picture>
+            <source srcSet={tourMobile} media="(max-width: 768px)" />
+            <img src={tourDesktop} alt="Tour" />
+         </picture>
 
+         <h2>upcoming shows</h2>
 
-            <ul>
-
-
-
-                <li>
-                    <div>
-                        <span>Data</span>
-                        <div>
-                            <span>Local</span>
-                            <span>Cidade e país</span>
-                        </div>
-                        <button>Tickets</button>
-                    </div>
-                </li>
-
-
-
-            </ul>
-
-
-        </main>
-    )
+         <ul>
+            {shows.map((show) => (
+               <li key={show.id}>
+                  <CardShow show={show} />
+               </li>
+            ))}
+         </ul>
+      </main>
+   );
 }

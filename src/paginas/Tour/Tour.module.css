@@ -1,0 +1,35 @@
+.mainTour{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--sabrina-newspaper);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.mainTour picture img{
+    width: 100%;
+}
+
+.mainTour h2{
+    margin-bottom: 30px;
+    font-size: 2.8em;
+}
+
+.mainTour ul{
+    width: 95vw;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.mainTour li{
+    width: 95%;
+    max-width: 360px;
+    height: 240px;
+    border-radius: 8px;
+}
