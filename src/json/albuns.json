@@ -2,7 +2,7 @@
    {
       "id": 1,
       "nome": "Short n' Sweet (Deluxe)",
-      "capa": "imagens/sns-deluxe.jpg",
+      "capa": "imagens/albuns/sns-deluxe.jpg",
       "faixas": 16,
       "cor": "#6AABBF",
       "musicas": [
@@ -60,7 +60,7 @@
    {
       "id": 2,
       "nome": "Short n' Sweet",
-      "capa": "imagens/sns.jpg",
+      "capa": "imagens/albuns/sns.jpg",
       "faixas": 12,
       "cor": "#2756A6",
       "musicas": [
@@ -106,7 +106,7 @@
    {
       "id": 3,
       "nome": "emails i can't send",
-      "capa": "imagens/eics.jpg",
+      "capa": "imagens/albuns/eics.jpg",
       "faixas": 17,
       "cor": "#E9C496",
       "musicas": [
@@ -167,7 +167,7 @@
    {
       "id": 4,
       "nome": "fruitcake",
-      "capa": "imagens/fruitcake.jpg",
+      "capa": "imagens/albuns/fruitcake.jpg",
       "faixas": 6,
       "cor": "#9C232A",
       "musicas": [
