@@ -1,4 +1,16 @@
-.mainVideos{
-    width: 100vw;
-    background-color: brown; /* Teste */
+.ulVideos{
+    background-color: var(--sabrina-newspaper);
+    padding: 20px 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.ulVideos li{
+    width: 95%;
+    min-width: 400px;
+    max-width: 700px;
 }

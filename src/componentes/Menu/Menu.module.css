@@ -4,7 +4,7 @@
    justify-content: center;
    align-items: center;
    height: 50px;
-   background-color: var(--sabrina-newspaper);
+   background-color: var(--vibrant-pink);
 }
 
 /* ÍCONE DE HAMBURGER */
@@ -45,7 +45,7 @@
       position: absolute;
       top: 50px;
       left: 0;
-      background-color: var(--sabrina-newspaper);
+      background-color: var(--vibrant-pink);
       padding-bottom: 40px;
    }
 

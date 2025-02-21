@@ -1,3 +1,17 @@
 .boxVideo{
-    background-color: var(--sabrina-newspapper);
+    background-color: var(--sabrina-newspaper);
+    display: flex;
+    flex-direction: column;
 }
+
+.boxVideo iframe{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+.boxVideo h2{
+    font-size: 1.5rem;
+    margin: 15px 0px;
+}
+
