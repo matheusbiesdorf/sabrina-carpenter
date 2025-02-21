@@ -1,4 +1,10 @@
 .mainSignUp{
-    width: 100vw;
-    background-color: darkgreen; /* Teste */
+    min-height: calc(100vh);
+    background-color: var(--sabrina-newspaper);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
