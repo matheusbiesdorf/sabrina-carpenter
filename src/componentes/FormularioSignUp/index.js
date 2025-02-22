@@ -10,7 +10,7 @@ export default function FormularioSignUp() {
    };
 
    return (
-      <form onSubmit={handleSubmit(onSubmit)}>
+      <form onSubmit={handleSubmit(onSubmit)} className={styles.formSignUp}>
         <h2>Sign Up</h2>
          <label>Email:</label>
          <input type="email" placeholder="Enter your email" {...register("email")} />

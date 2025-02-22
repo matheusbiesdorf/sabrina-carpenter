@@ -1,4 +1,63 @@
 .mainShop{
-    width: 100vw;
-    background-color: pink; /* Teste */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+}
+
+.mainShop video{
+    width: 100%;
+    height: auto;
+}
+
+.mainShop h2{
+    font-size: 2.5em;
+    margin: 20px 0px;
+}
+
+.sectionLoja{
+    width: 100%;
+    background-color: var(--sabrina-newspaper);
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width:768px) {
+    .sectionLoja{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.sectionLoja aside{
+    width: 20%;
+    height: 350px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .sectionLoja aside{
+        display: none;
+    }
+}
+
+.sectionLoja ul{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.sectionLoja li{
+    width: 320px;
+    height: 480px;
 }

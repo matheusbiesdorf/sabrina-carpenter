@@ -1,0 +1,35 @@
+.cardProduto{
+    width: 100%;
+    height: 100%;
+    background-color: var(--pure-white);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.cardProduto img{
+    width: 100%;
+}
+
+.cardProduto p{
+    display: block;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.cardProduto button{
+    width: 85%;
+    height: 40px;
+    background-color: var(--vibrant-pink);
+    border-radius: 8px;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
