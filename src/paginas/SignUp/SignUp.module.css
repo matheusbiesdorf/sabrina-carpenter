@@ -5,6 +5,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .mainSignUp{
+        align-items: flex-start;
+        background-color: var(--pure-white);
+    }
 }
